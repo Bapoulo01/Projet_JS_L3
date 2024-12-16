@@ -1,0 +1,81 @@
+{
+    "professeur": [
+        {
+            "id_prof": 1,
+            "nomComplet": "Dr. Amadou Sow",
+            "grade": "Maître de conférences",
+            "specialite": "Informatique",
+            "login": "amadou.sow",
+            "password": "12345"
+        },
+        {
+            "id_prof": 2,
+            "nomComplet": "Mme Fatou Ndiaye",
+            "grade": "Professeur titulaire",
+            "specialite": "Mathématiques",
+            "login": "fatou.ndiaye",
+            "password": "password123"
+        },
+        {
+            "id_prof": 3,
+            "nomComplet": "M. Ibrahim Diop",
+            "grade": "Assistant",
+            "specialite": "Physique",
+            "login": "ibrahim.diop",
+            "password": "physique123"
+        },
+        {
+            "id_prof": 4,
+            "nomComplet": "Mme Aïcha Ba",
+            "grade": "Maître-assistante",
+            "specialite": "Chimie",
+            "login": "aicha.ba",
+            "password": "chimie456"
+        },
+        {
+            "id_prof": 5,
+            "nomComplet": "Dr. Mamadou Sy",
+            "grade": "Maître de conférences",
+            "specialite": "Biologie",
+            "login": "mamadou.sy",
+            "password": "bio789"
+        }
+    ],
+    "cours": [
+        {
+            "id": 1,
+            "module": "Programmation Web",
+            "heure_debut": "08:00",
+            "heure_fin": "10:00",
+            "id_prof": 1
+        },
+        {
+            "id": 2,
+            "module": "Algèbre Linéaire",
+            "heure_debut": "10:30",
+            "heure_fin": "12:30",
+            "id_prof": 2
+        },
+        {
+            "id": 3,
+            "module": "Mécanique des fluides",
+            "heure_debut": "13:00",
+            "heure_fin": "15:00",
+            "id_prof": 3
+        },
+        {
+            "id": 4,
+            "module": "Chimie Organique",
+            "heure_debut": "15:30",
+            "heure_fin": "17:30",
+            "id_prof": 4
+        },
+        {
+            "id": 5,
+            "module": "Génétique",
+            "heure_debut": "18:00",
+            "heure_fin": "20:00",
+            "id_prof": 5
+        }
+    ]
+}
